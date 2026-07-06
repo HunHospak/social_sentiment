@@ -1,0 +1,17 @@
+service: social_sentiment
+schema_version: "1.0"
+ttl_hours: 30
+
+source: stocktwits
+
+# Tickers to sample. Retail-heavy names have the most chatter.
+tickers: [SPY, QQQ, NVDA, TSLA, AAPL, AMD, PLTR, AMZN, META, MSFT, COIN, SMCI, GME, AMC, SOFI]
+
+min_messages: 5           # need at least this many *rated* messages to assign a label
+request_delay_sec: 1.2    # polite spacing between StockTwits calls (rate limits)
+
+# Optional StockTwits access token raises rate limits. Put the env var NAME here;
+# the value lives in .env (local) / a CI secret. Leave as-is to run without a token.
+token_env: STOCKTWITS_TOKEN
+
+feed_url: "https://HunHospak.github.io/social_sentiment/social_sentiment.json"

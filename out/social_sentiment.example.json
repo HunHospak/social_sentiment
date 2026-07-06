@@ -1,0 +1,21 @@
+{
+  "service": "social_sentiment",
+  "schema_version": "1.0",
+  "generated_at": "2026-07-06T22:05:00+00:00",
+  "status": "active",
+  "ttl_hours": 30,
+  "data": {
+    "as_of": "2026-07-06",
+    "source": "stocktwits",
+    "count": 3,
+    "tickers": [
+      {"ticker": "NVDA", "bullish": 22, "bearish": 6, "rated": 28, "buzz": 30, "sentiment_score": 0.571, "label": "bullish"},
+      {"ticker": "TSLA", "bullish": 12, "bearish": 14, "rated": 26, "buzz": 30, "sentiment_score": -0.077, "label": "mixed"},
+      {"ticker": "GME", "bullish": 5, "bearish": 18, "rated": 23, "buzz": 30, "sentiment_score": -0.565, "label": "bearish"}
+    ],
+    "most_buzzed": ["NVDA", "TSLA", "GME"],
+    "most_bullish": ["NVDA", "TSLA", "GME"],
+    "most_bearish": ["GME", "TSLA", "NVDA"],
+    "disclaimer": "Aggregated retail social chatter — noisy and often contrarian, not a signal."
+  }
+}
