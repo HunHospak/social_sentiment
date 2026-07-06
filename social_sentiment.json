@@ -1,0 +1,18 @@
+{
+  "service": "social_sentiment",
+  "schema_version": "1.0",
+  "generated_at": "2026-07-06T20:17:39+00:00",
+  "status": "unavailable",
+  "ttl_hours": 30,
+  "data": {
+    "as_of": "2026-07-06",
+    "source": "stocktwits",
+    "count": 0,
+    "tickers": [],
+    "disclaimer": "Aggregated retail social chatter \u2014 noisy and often contrarian, not a signal.",
+    "most_buzzed": [],
+    "most_bullish": [],
+    "most_bearish": []
+  },
+  "notes": "stocktwits unavailable"
+}
