@@ -1,11 +1,11 @@
 {
   "service": "social_sentiment",
   "schema_version": "1.0",
-  "generated_at": "2026-07-14T23:07:50+00:00",
+  "generated_at": "2026-07-15T23:09:31+00:00",
   "status": "unavailable",
   "ttl_hours": 30,
   "data": {
-    "as_of": "2026-07-14",
+    "as_of": "2026-07-15",
     "source": "stocktwits",
     "count": 0,
     "tickers": [],
