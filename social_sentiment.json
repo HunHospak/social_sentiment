@@ -1,147 +1,147 @@
 {
   "service": "social_sentiment",
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T22:35:46+00:00",
+  "generated_at": "2026-08-17T22:35:59+00:00",
   "status": "active",
   "ttl_hours": 30,
   "data": {
-    "as_of": "2026-08-14",
+    "as_of": "2026-08-17",
     "source": "stocktwits",
     "count": 15,
     "tickers": [
       {
         "ticker": "SPY",
-        "bullish": 5,
-        "bearish": 7,
-        "rated": 12,
+        "bullish": 3,
+        "bearish": 8,
+        "rated": 11,
         "buzz": 30,
-        "sentiment_score": -0.167,
-        "label": "mixed"
-      },
-      {
-        "ticker": "QQQ",
-        "bullish": 5,
-        "bearish": 9,
-        "rated": 14,
-        "buzz": 30,
-        "sentiment_score": -0.286,
+        "sentiment_score": -0.455,
         "label": "bearish"
       },
       {
-        "ticker": "NVDA",
-        "bullish": 7,
-        "bearish": 6,
-        "rated": 13,
+        "ticker": "QQQ",
+        "bullish": 6,
+        "bearish": 8,
+        "rated": 14,
         "buzz": 30,
-        "sentiment_score": 0.077,
+        "sentiment_score": -0.143,
         "label": "mixed"
       },
       {
-        "ticker": "TSLA",
-        "bullish": 11,
-        "bearish": 6,
-        "rated": 17,
+        "ticker": "NVDA",
+        "bullish": 9,
+        "bearish": 3,
+        "rated": 12,
         "buzz": 30,
-        "sentiment_score": 0.294,
+        "sentiment_score": 0.5,
+        "label": "bullish"
+      },
+      {
+        "ticker": "TSLA",
+        "bullish": 8,
+        "bearish": 2,
+        "rated": 10,
+        "buzz": 30,
+        "sentiment_score": 0.6,
         "label": "bullish"
       },
       {
         "ticker": "AAPL",
-        "bullish": 8,
-        "bearish": 10,
-        "rated": 18,
+        "bullish": 6,
+        "bearish": 1,
+        "rated": 7,
         "buzz": 30,
-        "sentiment_score": -0.111,
-        "label": "mixed"
+        "sentiment_score": 0.714,
+        "label": "bullish"
       },
       {
         "ticker": "AMD",
-        "bullish": 13,
+        "bullish": 8,
         "bearish": 2,
-        "rated": 15,
+        "rated": 10,
         "buzz": 30,
-        "sentiment_score": 0.733,
+        "sentiment_score": 0.6,
         "label": "bullish"
       },
       {
         "ticker": "PLTR",
-        "bullish": 13,
-        "bearish": 4,
-        "rated": 17,
+        "bullish": 5,
+        "bearish": 3,
+        "rated": 8,
         "buzz": 30,
-        "sentiment_score": 0.529,
+        "sentiment_score": 0.25,
         "label": "bullish"
       },
       {
         "ticker": "AMZN",
-        "bullish": 8,
+        "bullish": 12,
         "bearish": 1,
-        "rated": 9,
+        "rated": 13,
         "buzz": 30,
-        "sentiment_score": 0.778,
+        "sentiment_score": 0.846,
         "label": "bullish"
       },
       {
         "ticker": "META",
-        "bullish": 8,
-        "bearish": 3,
-        "rated": 11,
-        "buzz": 30,
-        "sentiment_score": 0.455,
-        "label": "bullish"
-      },
-      {
-        "ticker": "MSFT",
-        "bullish": 11,
-        "bearish": 1,
-        "rated": 12,
-        "buzz": 30,
-        "sentiment_score": 0.833,
-        "label": "bullish"
-      },
-      {
-        "ticker": "COIN",
-        "bullish": 6,
-        "bearish": 4,
-        "rated": 10,
+        "bullish": 3,
+        "bearish": 2,
+        "rated": 5,
         "buzz": 30,
         "sentiment_score": 0.2,
         "label": "mixed"
       },
       {
-        "ticker": "SMCI",
-        "bullish": 19,
+        "ticker": "MSFT",
+        "bullish": 7,
+        "bearish": 5,
+        "rated": 12,
+        "buzz": 30,
+        "sentiment_score": 0.167,
+        "label": "mixed"
+      },
+      {
+        "ticker": "COIN",
+        "bullish": 9,
         "bearish": 0,
-        "rated": 19,
+        "rated": 9,
         "buzz": 30,
         "sentiment_score": 1.0,
         "label": "bullish"
       },
       {
-        "ticker": "GME",
-        "bullish": 17,
+        "ticker": "SMCI",
+        "bullish": 10,
         "bearish": 3,
-        "rated": 20,
+        "rated": 13,
         "buzz": 30,
-        "sentiment_score": 0.7,
+        "sentiment_score": 0.538,
+        "label": "bullish"
+      },
+      {
+        "ticker": "GME",
+        "bullish": 16,
+        "bearish": 5,
+        "rated": 21,
+        "buzz": 30,
+        "sentiment_score": 0.524,
         "label": "bullish"
       },
       {
         "ticker": "AMC",
-        "bullish": 16,
+        "bullish": 18,
         "bearish": 0,
-        "rated": 16,
+        "rated": 18,
         "buzz": 30,
         "sentiment_score": 1.0,
         "label": "bullish"
       },
       {
         "ticker": "SOFI",
-        "bullish": 11,
+        "bullish": 7,
         "bearish": 2,
-        "rated": 13,
+        "rated": 9,
         "buzz": 30,
-        "sentiment_score": 0.692,
+        "sentiment_score": 0.556,
         "label": "bullish"
       }
     ],
@@ -152,14 +152,14 @@
       "NVDA"
     ],
     "most_bullish": [
-      "SMCI",
+      "COIN",
       "AMC",
-      "MSFT"
+      "AMZN"
     ],
     "most_bearish": [
-      "QQQ",
       "SPY",
-      "AAPL"
+      "QQQ",
+      "MSFT"
     ]
   }
 }
