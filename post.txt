@@ -1,5 +1,5 @@
 Retail buzz — 2026-09-04 (StockTwits)
-Most bullish: $AMZN, $GME, $AMC
-Most bearish: $AAPL, $SPY, $QQQ
-Most talked-about: $SPY, $QQQ, $NVDA
+Most bullish: $AMD, $AMZN, $SOFI
+Most bearish: $QQQ, $MSFT, $COIN
+Most talked-about: $QQQ, $NVDA, $TSLA
 Crowd chatter, often contrarian · not investment advice · arkenlabs.eu
